@@ -1,0 +1,130 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e9ee;
+    padding:0;
+    margin:0;
+}
+header{
+    display:flex;
+    flex-flow:column;
+    background-color: #1F2937;
+    justify-content: center;
+}
+.logolink{
+    display:flex;
+    justify-content: space-between;
+    align-items:baseline;
+    margin:0 10%;
+}
+ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+.awesomeimg{
+    display:flex;
+
+    margin:0 10%;
+    padding:5% 0;
+
+}
+.awesomebutton{
+    flex:1;
+    display: flex;
+    flex-flow:row wrap;
+}
+.awesomebutton p{
+    margin:2px;
+}
+.awesomebutton button{
+    background-color: #3882F6;
+    border:none;
+    color:#e5e9ee;
+}
+.img{
+    flex:1 1;
+    width:150px;
+    height: 150px;
+    background-color: #666b72;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.randinfo{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    padding:5% 0;
+}
+.randinfo p{
+    align-self:center;
+}
+.randinfo p:nth-child(1){
+    font-size:36px;
+    font-weight:bold;
+}
+.cards{
+
+    flex:1;
+    align-self:center;
+    display: flex;
+    gap:32px;
+}
+.card{
+    max-width:100px;
+    flex:1 1 auto;
+}
+.card span{display:inline-flex;border:2px solid blue;border-radius: 5%;
+width:100px;height:100px; box-sizing: border-box;}
+
+.quote{
+    flex:1 auto;
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    background-color: rgb(172, 166, 166);
+    padding: 10% 0;
+}
+blockquote{
+    text-wrap:wrap;
+    text-align: center left;
+    flex:1;
+    margin-bottom:-20px;
+    margin:0 30%;
+}
+.quote p{
+    text-align:right;
+    margin:0 30%;
+}
+.calltobutton{
+    flex:1;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin:5% 20%;
+    background-color: #3882F6;
+    padding:20px;
+}
+.text{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width:500px;
+    font-size: 18px; color: #F9FAF8;
+}
+.calltobutton button{
+    width:80px;
+    height:20px;
+    align-self:center;
+    margin-right:30px;font-size: 12px; color: #F9FAF8;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    flex-wrap: wrap;
+}
+footer{
+    background-color: #1F2937;
+    color:#F9FAF8;
+    text-align: center;
+    padding:20px;
+}
